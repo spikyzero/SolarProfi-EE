@@ -7,6 +7,12 @@
         <div id="title">
             <h1><spring:message code="message.welcome"/></h1>
             <h3><spring:message code="message.glad.see"/></h3>
+            <a href="<c:url value="/"/>">Home</a>
+        </div>
+        <div>
+            <a href=?locale=en>UK</a>
+            <a href=?locale=uk>UA</a>
+            <a href=?locale=de>DE</a>
         </div>
     </div>
 </template:page>
